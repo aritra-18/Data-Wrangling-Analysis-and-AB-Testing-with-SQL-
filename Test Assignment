@@ -12,7 +12,7 @@ AND
   parameter_name='test_id';
   
   
-  -- Exercise 2
+-- Exercise 2
 -- Check for potential problems with test assignments
 -- For example make sure there is no data obviously missing
 -- (This is an open ended question)
@@ -32,7 +32,7 @@ GROUP BY
   DATE(event_time);
   
   
-  -- Exercise 3
+-- Exercise 3
 -- Write a query that returns a table of assignment events
 -- Please include all of the relevant parameters as columns 
 -- (Hint: A previous exercise as template)
@@ -65,7 +65,7 @@ ORDER BY
   event_id;
   
   
-  -- Exercise 4
+-- Exercise 4
 -- Check for potential assignment problems with test_id 5
 -- Specifically, make sure users are assigned only one treatment group 
 
