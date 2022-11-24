@@ -42,7 +42,7 @@ WHERE test_id = 7
 GROUP BY test_assignment;
 
 
--- Exercise 2: Create a new tem view binary metric. Count the number
+-- Exercise 2: Create a new item view binary metric. Count the number
 -- of users per treatment group, and count the number of users
 -- with views (for test_id 7)
 
