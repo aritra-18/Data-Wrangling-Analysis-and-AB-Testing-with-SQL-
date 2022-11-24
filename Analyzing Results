@@ -3,7 +3,7 @@
 -- Use the order_binary metric from the previous exercise
 -- For the proportion metric order binary compute the following:
 -- The count of users per treatment group for test_id = 7
--- The count of usrs with orders per treatment group
+-- The count of users with orders per treatment group
 
 SELECT test_assignment,
        COUNT(user_id) AS users,
